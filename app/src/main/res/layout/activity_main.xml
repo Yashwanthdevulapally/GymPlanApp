@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"> <!-- Set the background image here -->
+
+    <Button
+        android:id="@+id/btnWorkoutPlans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Workout Plans" />
+
+    <Button
+        android:id="@+id/btnDietPlans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWorkoutPlans"
+        android:layout_marginTop="78dp"
+        android:text="Diet Plans" />
+
+    <Button
+        android:id="@+id/btnProgressTracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDietPlans"
+        android:layout_marginTop="6dp"
+        android:text="Progress Tracker" />
+
+    <Button
+        android:id="@+id/btnUserDetails"
+        android:layout_width="139dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/btnProgressTracker"
+        android:layout_marginTop="-150dp"
+        android:text="User Details" />
+</RelativeLayout>
